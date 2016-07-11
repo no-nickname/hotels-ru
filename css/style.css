@@ -1,0 +1,64 @@
+body {
+	background-color: #c8c5e5;
+}
+
+	/*@media screen and (device-height: 1050px)
+	{
+		.wrapper{min-height: 1050px;}
+	}*/
+
+.wrapper {
+	background-color: #f9f9f9;
+	/*width: 80%;*/
+
+	/*margin: 0 auto;*/
+	border-radius: 12px;
+	min-height: 1100px;
+}
+
+header {
+	padding: 50px 0;
+}
+
+h2 {
+	font-style: italic;
+	text-align: center;
+}
+
+#comment_form {
+	padding-bottom: 50px;
+}
+
+.form-group {
+	padding-top: 10px;
+}
+
+label {
+	padding-bottom: 7px;
+}
+
+.message_container {
+	width: 50%;
+	padding: 30px;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.well-lg {
+	word-wrap: break-word;
+}
+
+.author {
+	padding-bottom: 15px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.date {
+	font-style: italic;
+	color: #2f4f4f;
+}
+
+.reply, .delete {
+	display: inline-block;
+	padding: 10px 10px 0 0;
+}
