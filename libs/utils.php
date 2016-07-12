@@ -21,17 +21,17 @@
 			getComments($row); 
 		}  
 	}
-?>
 
-<?php
 	function getComments($row) {
 		$level = $row['level'];
 		?>
+
 		<div class='message_container  col-xs-offset-<?=$level?>'>
 		<div class='author'><?=$row['author']?></div>
 		<div class='comment-body well well-lg'><?=$row['message']?></div>
 		<div class='date'>Отправлено <?=date('d.m.Y в H:i',$row['time'])?></div>
-		<?
+
+		<?php
 	 	if ($row['level'] < 5){
 	 		echo "<a href='#' class='reply' id='".$row['id']."' data-level='".$level."'>Ответить</a>";
 	 	}
