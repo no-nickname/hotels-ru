@@ -34,7 +34,7 @@
 			<div class="col-xs-12">
 			
 			<?php
-				showComments();
+				showComments($messages);
 			?>
 			<?
 				if(count($messages)<=0){
