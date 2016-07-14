@@ -32,10 +32,6 @@
 		<div class='message_container  col-xs-offset-<?=$level?>'>
 		<div class='author'><?=$row->author?></div>
 		<div class='comment-body well well-lg'><?=$row->message?></div>
-<?php
-		print_r ($row->level);
-		print_r ($row);
-?>
 		<div class='date'>Отправлено <?=date('d.m.Y в H:i',$row->time)?></div>
 
 		<?php
